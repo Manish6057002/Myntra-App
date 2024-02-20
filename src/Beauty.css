@@ -1,0 +1,75 @@
+.cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .product{
+    
+} */
+.sidebar{
+    
+    font-size: 15px;
+}
+.gender{
+    line-height: 25px;
+    
+
+}
+.categories{
+    line-height: 25px;
+    border-bottom: 1px solid silver;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brands{
+    line-height: 25px;
+    border-bottom: 1px solid silver;
+    
+    padding-left:15px;
+    padding-right: 15px;
+}
+.product{
+    display: flex;
+    column-gap: 20px;
+    border-top:1px solid silver;
+    
+}
+.productlist{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    column-gap: 100px;
+    row-gap: 40px;
+    padding: 20px;
+    
+    
+}
+.products:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.sidebar{
+    border-right: 1px solid silver;
+}
+.products img{
+    width: 210px;
+    height: auto;
+}
+.genders{
+    border-bottom: 1px solid silver;
+    padding:15px;
+}
+.filters{
+    display: flex;
+    column-gap: 190px;
+}
+select {
+    border:none;
+}
+.beautybody{
+    padding: 15px;
+}
