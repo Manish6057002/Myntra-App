@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum(){
+var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+var c = a+b;
+document.getElementById("result").innerHTML="the sum:"+c;
+ }
+ function sub(){
+var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+var c = a-b;
+document.getElementById("result").innerHTML="the subtraction:"+c;
+ }
+ function multiply(){
+var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+var c = a*b;
+document.getElementById("result").innerHTML="the multiplication:"+c;
+ }
+
+ function division(){
+var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+var c = a-b;
+document.getElementById("result").innerHTML="the division:"+c;
+ }
+  </script>
+</head>
+<body>
+First number<input type="number" id="n1"><br>
+First number<input type="number" id="n2"><br>  
+<button onclick="sum()">Enter</button>
+<button onclick="sub()">Enter</button>
+<button onclick="multiply()">Enter</button>
+<button onclick="division()">Enter</button>
+<h1 id="result"></h1>    
+</body>
+</html>

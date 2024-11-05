@@ -11,6 +11,19 @@
     
 }
 .womengrid img{
-    width: 248px;
-    height: 420px;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width:790px){
+    .womengrid{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .womengrid img{
+        width: 50%;
+        height: 50%;
+
+    }
+    
 }

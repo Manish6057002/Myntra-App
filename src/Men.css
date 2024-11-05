@@ -10,3 +10,16 @@
     gap: 20px;
     justify-content: center;
 }
+@media screen and (max-width:890px){
+ .mengrid{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+ } 
+ .mengrid img{
+    width: 70%;
+    height: 50%;
+ }
+ 
+}
